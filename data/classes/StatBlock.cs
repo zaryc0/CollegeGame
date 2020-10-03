@@ -7,6 +7,11 @@ namespace data.classes
 {
     class StatBlock : IStatBlock
     {
+        private int _attack;
+        private int _defence;
+        private int _healthBar;
+        private int _health;
+
         public int GetAttackAttribute()
         {
             throw new NotImplementedException();

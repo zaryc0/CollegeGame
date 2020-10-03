@@ -4,8 +4,8 @@
     {
         AESTHETIC,
         FLOATER,
-        BOSS,
-        CHARACTER,
+        TURTLE,
+        UNICORN,
         GROUNDED,
         BEAN,
         FIREBALL
