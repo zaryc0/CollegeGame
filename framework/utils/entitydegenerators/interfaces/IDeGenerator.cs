@@ -9,6 +9,7 @@ namespace framework.utils.entitydegenerators.interfaces
     interface IDeGenerator
     {
         public void Entity(IEntity entity);
+
         public void Projectile(IProjectile projectile);
 
         public void Character(ICharacter character);

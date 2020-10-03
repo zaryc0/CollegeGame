@@ -15,8 +15,8 @@ namespace framework.utils.entitygenerators.interfaces
 
         public ICharacter Character(IDice dice, IEntity entity, IStatBlock statBlock, CHARACTER_TYPE type);
 
-        public IBossInteractor BossInteractor(IDice dice, IEntity entity, IStatBlock, BOSS_TYPE type);
+        public IBoss BossInteractor(IDice dice, IEntity[] entities, IStatBlock statBlock, BOSS_TYPE type);
 
-        public ICreatureInteractor CreatureInteractor(IEntity entity, IDice dice);
+        public ICreature CreatureInteractor(IDice dice, IEntity entity, IStatBlock statBlock, CREATURE_TYPE type);
     }
 }

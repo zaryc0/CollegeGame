@@ -6,6 +6,11 @@ namespace framework.utils.entities
 {
     public class Projectile : IProjectile
     {
+        //constructor
+        public Projectile()
+        {
+
+        }
         //data
         private IEntity _model;
         private int _damage;
