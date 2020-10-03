@@ -6,11 +6,20 @@ namespace data.classes
     {
         private bool _activeStatus;
         private bool _interactable;
-        private int _id;
         private int _speed;
         private (int, int) _location;
         private int _direction;
         private string _spriteAddress;
+
+        public Entity()
+        {
+            _activeStatus = false;
+            _interactable = false;
+            _speed = 0;
+            _location = (0,0);
+            _direction = 0;
+            _spriteAddress = "";
+        }
 
         public bool GetActiveStatus()
         {
@@ -20,11 +29,6 @@ namespace data.classes
         public int GetDirection()
         {
             return _direction;
-        }
-
-        public int GetId()
-        {
-            return _id;
         }
 
         public bool GetInteractable()
@@ -55,11 +59,6 @@ namespace data.classes
         public void SetDirection(int direction)
         {
             _direction = direction;
-        }
-
-        public void SetId(int id)
-        {
-            _id = id;
         }
 
         public void SetInteractable(bool interaction)
