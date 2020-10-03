@@ -4,7 +4,7 @@ using Data.interactors.interfaces;
 
 namespace data.interactors
 {
-    public class Creature : ICreatureInteractor
+    public class CreatureInteractor : ICreatureInteractor
     {
         public IEntity GetEntity()
         {

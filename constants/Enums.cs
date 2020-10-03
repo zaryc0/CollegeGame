@@ -1,13 +1,35 @@
 ﻿namespace constants
 {
-    public enum ENTITY_TYPES
+    public enum CREATURE_TYPE
     {
-        AESTHETIC,
-        FLOATER,
+        FLYER,
+        GROUNDED,
+        GHOST       
+    }
+
+    public enum BOSS_TYPE
+    {
+        BEANFIEND,
+        HUNTER,
+        TROLL
+
+    }
+
+    public enum CHARACTER_TYPE
+    {
         TURTLE,
         UNICORN,
-        GROUNDED,
-        BEAN,
-        FIREBALL
+        FISH
     }
+
+    public enum PROJECTILE_TYPE
+    {
+        BULLET,
+        FIREBALL,
+        BEAN,
+        LASER,
+        BUBBLE,
+    }
+
+
 }

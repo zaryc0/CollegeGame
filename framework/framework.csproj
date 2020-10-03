@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\constants\constants.csproj" />
     <ProjectReference Include="..\data\data.csproj" />
     <ProjectReference Include="..\wrappers\wrappers.csproj" />
   </ItemGroup>

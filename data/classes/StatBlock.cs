@@ -12,6 +12,13 @@ namespace data.classes
         private int _healthBar;
         private int _health;
 
+        StatBlock()
+        {
+            _attack = 0;
+            _defence = 0;
+            _healthBar = 0;
+            _health = 0;
+        }
         public int GetAttackAttribute()
         {
             throw new NotImplementedException();

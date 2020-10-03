@@ -7,9 +7,9 @@
   <ItemGroup>
     <None Include="classes\interfaces\IUser.cs" />
     <None Include="classes\User.cs" />
-    <None Include="interactors\Boss.cs" />
-    <None Include="interactors\Character.cs" />
-    <None Include="interactors\Creature.cs" />
+    <None Include="interactors\BossInteractors.cs" />
+    <None Include="interactors\CharacterInteractors.cs" />
+    <None Include="interactors\CreatureInteractor.cs" />
     <None Include="classes\Entity.cs" />
     <None Include="interactors\interfaces\IBossInteractor.cs" />
     <None Include="interactors\interfaces\ICharacterInteractor.cs" />

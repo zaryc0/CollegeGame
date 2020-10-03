@@ -3,7 +3,7 @@ using Data.interactors.interfaces;
 
 namespace Data.interactors
 {
-    public class Character : ICharacterInteractor
+    public class CharacterInteractors : ICharacterInteractor
     {
         public IEntity GetEntity()
         {

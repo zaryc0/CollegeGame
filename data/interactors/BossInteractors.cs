@@ -4,7 +4,7 @@ using Data.interactors.interfaces;
 
 namespace data.interactors
 {
-    public class Boss : IBossInteractor
+    public class BossInteractors : IBossInteractor
     {
 
         public int GetAttackAttribute()
