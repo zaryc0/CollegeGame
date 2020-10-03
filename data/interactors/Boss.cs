@@ -1,66 +1,80 @@
-﻿using Constants.Enum;
-using Data.classes.entities;
-using Data.classes.entities.interfaces;
+﻿using System;
+using data.classes.interfaces;
+using Data.interactors.interfaces;
 
-namespace data.classes.entities
+namespace data.interactors
 {
     public class Boss : IBossInteractor
     {
-        private int _healthBar;
-        private int _health;
-        private int _attack;
-        private int _defence;
-        private int _lives;
-        private int _score;
 
         public int GetAttackAttribute()
         {
-            return _attack;
+            throw new NotImplementedException();
         }
 
         public int GetDefenceAttribute()
         {
-            return _defence;
+            throw new NotImplementedException();
+        }
+
+        public IEntity[] GetEntities()
+        {
+            throw new NotImplementedException();
         }
 
         public int GetHealthAttribute()
         {
-            return _healthBar;
+            throw new NotImplementedException();
         }
 
         public int GetLives()
         {
-            return _lives;
+            throw new System.NotImplementedException();
         }
 
         public int GetRemainingHealth()
         {
-            return _health;
+            throw new System.NotImplementedException();
+        }
+
+        public IStatBlock GetStatblock()
+        {
+            throw new NotImplementedException();
         }
 
         public void SetAttackAttribute(int attack)
         {
-            _attack = attack;
+            throw new System.NotImplementedException();
         }
 
         public void SetDefence(int defence)
         {
-            _defence = defence;
+            throw new System.NotImplementedException();
+        }
+
+        public void SetEntity(IEntity[] entities)
+        {
+            throw new NotImplementedException();
         }
 
         public void SetHealthAttribute(int value)
         {
-            _health = value;
+            throw new System.NotImplementedException();
         }
 
         public void SetLives(int lives)
         {
-            _lives = lives;
+            throw new System.NotImplementedException();
         }
 
         public void SetRemainingHealth(int value)
         {
-            _health = value;
+            throw new System.NotImplementedException();
+        }
+
+        public void SetStatBlock(IStatBlock statblock)
+        {
+            throw new NotImplementedException();
         }
     }
 }

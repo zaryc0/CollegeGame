@@ -1,170 +1,68 @@
-﻿using Constants.Enum;
-using Data.classes.entities.interfaces;
-using Data.classes.entityInteractors.interfaces;
-using System;
+﻿using data.classes.interfaces;
+using Data.interactors.interfaces;
 
-namespace Data.classes.entities
+namespace Data.interactors
 {
     public class Character : ICharacterInteractor
     {
-        private IEntity _entity;
-        private int _healthBar;
-        private int _health;
-        private int _attack;
-        private int _defence;
-        private int _lives;
-        private int _score;
-        private int _level;
-        private int _exp;
-
-        public bool GetActiveStatus()
+        public IEntity GetEntity()
         {
-            return _entity.GetActiveStatus();
-        }
-
-        public int GetAttackAttribute()
-        {
-            return _attack;
-        }
-
-        public int GetDefenceAttribute()
-        {
-            return _defence;
-        }
-
-        public int GetDirection()
-        {
-            return _entity.GetDirection();
+            throw new System.NotImplementedException();
         }
 
         public int GetExp()
         {
-            return _exp;
-        }
-
-        public int GetHealthAttribute()
-        {
-            return _healthBar;
-        }
-
-        public int GetId()
-        {
-            return _entity.GetId();
-        }
-
-        public bool GetInteractable()
-        {
-            return _entity.GetInteractable();
+            throw new System.NotImplementedException();
         }
 
         public int GetLevel()
         {
-            return _level;
+            throw new System.NotImplementedException();
         }
 
         public int GetLives()
         {
-            return _lives ;
-        }
-
-        public (int, int) GetLocation()
-        {
-            return _entity.GetLocation();
-        }
-
-        public int GetRemainingHealth()
-        {
-            return _health;
+            throw new System.NotImplementedException();
         }
 
         public int GetScore()
         {
-            return _score;
+            throw new System.NotImplementedException();
         }
 
-        public int GetSpeedAttribute()
+        public IStatBlock GetStatblock()
         {
-            return _entity.GetSpeedAttribute();
+            throw new System.NotImplementedException();
         }
 
-        public string GetSpriteAddress()
+        public void SetEntity(IEntity entity)
         {
-            return _entity.GetSpriteAddress();
-        }
-
-        public void SetActiveStatus(bool status)
-        {
-            _entity.SetActiveStatus(status);
-        }
-
-        public void SetAttackAttribute(int attack)
-        {
-            _attack = attack;
-        }
-
-        public void SetDefence(int defence)
-        {
-            _defence = defence;
-        }
-
-        public void SetDirection(int direction)
-        {
-            _entity.SetDirection(direction);
+            throw new System.NotImplementedException();
         }
 
         public void SetExp(int experience)
         {
-            _exp = experience;
-        }
-
-        public void SetHealthAttribute(int value)
-        {
-            _healthBar = value;
-        }
-
-        public void SetId(int id)
-        {
-            _entity.SetId(id);
-        }
-
-        public void SetInteractable(bool interaction)
-        {
-            _entity.SetInteractable(interaction);
+            throw new System.NotImplementedException();
         }
 
         public void SetLevel(int level)
         {
-            _level = level;
+            throw new System.NotImplementedException();
         }
 
         public void SetLives(int lives)
         {
-            _lives = lives;
-        }
-
-        public void SetLocation((int, int) location)
-        {
-            _entity.SetLocation(location);
-        }
-
-        public void SetRemainingHealth(int value)
-        {
-            _health = value;
+            throw new System.NotImplementedException();
         }
 
         public void SetScore(int score)
         {
-            _score = score;
+            throw new System.NotImplementedException();
         }
 
-        public void SetSpeedAttribute(int value)
+        public void SetStatBlock(IStatBlock statBlock)
         {
-            _entity.SetSpeedAttribute(value);
-        }
-
-        public void SetSpriteAddress(string address)
-        {
-            _entity.SetSpriteAddress(address);
+            throw new System.NotImplementedException();
         }
     }
 }

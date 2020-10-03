@@ -1,7 +1,6 @@
-﻿using Constants.Enum;
-using Data.classes.entities.interfaces;
+﻿using data.classes.interfaces;
 
-namespace Data.classes.entities
+namespace data.classes
 {
     public class Entity : IEntity
     {

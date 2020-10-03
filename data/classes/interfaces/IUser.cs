@@ -1,9 +1,4 @@
-﻿using Data.classes.entities.interfaces;
-using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Data.classes.Objects.interfaces
+﻿namespace data.classes.interfaces
 {
     public interface IUser
     {

@@ -1,11 +1,7 @@
-﻿using Constants.Enum;
-
-namespace Data.classes.entityInteractors.interfaces
+﻿namespace data.classes.interfaces
 {
     public interface IEntity
     {
-        public int GetId();
-        public void SetId(int id);
         public string GetSpriteAddress();
         public void SetSpriteAddress(string address);
         public int GetSpeedAttribute();

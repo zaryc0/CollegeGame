@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\data\data.csproj" />
+    <ProjectReference Include="..\wrappers\wrappers.csproj" />
+  </ItemGroup>
+
 </Project>

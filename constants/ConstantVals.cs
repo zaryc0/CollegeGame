@@ -1,8 +1,6 @@
-﻿using System;
-
-namespace constants
+﻿namespace constants
 {
-    public class ConstantVals
+    static class ConstantVals
     {
         public const int DIRECTION_RIGHT = -2;
         public const int DIRECTION_LEFT = -3;

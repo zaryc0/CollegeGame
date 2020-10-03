@@ -4,4 +4,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Dice.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Dice.cs" />
+  </ItemGroup>
+
 </Project>
