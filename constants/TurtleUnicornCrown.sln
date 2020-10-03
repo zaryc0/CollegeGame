@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wrappers", "..\wrappers\wra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tempUI", "..\tempUI\tempUI.csproj", "{56A1AFC0-E974-46E0-B804-6D1117B6883F}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "database", "..\database\database.sqlproj", "{CCD41FF2-AF74-4889-8EF3-A4B3C41FEE3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurtleUnicornCrown", "..\TurtleUnicornCrown\TurtleUnicornCrown.csproj", "{462357F2-7A78-4BB0-9BF2-6D69ECDC46FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,16 @@ Global
 		{56A1AFC0-E974-46E0-B804-6D1117B6883F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56A1AFC0-E974-46E0-B804-6D1117B6883F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56A1AFC0-E974-46E0-B804-6D1117B6883F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCD41FF2-AF74-4889-8EF3-A4B3C41FEE3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCD41FF2-AF74-4889-8EF3-A4B3C41FEE3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCD41FF2-AF74-4889-8EF3-A4B3C41FEE3E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CCD41FF2-AF74-4889-8EF3-A4B3C41FEE3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD41FF2-AF74-4889-8EF3-A4B3C41FEE3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCD41FF2-AF74-4889-8EF3-A4B3C41FEE3E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{462357F2-7A78-4BB0-9BF2-6D69ECDC46FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{462357F2-7A78-4BB0-9BF2-6D69ECDC46FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{462357F2-7A78-4BB0-9BF2-6D69ECDC46FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{462357F2-7A78-4BB0-9BF2-6D69ECDC46FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

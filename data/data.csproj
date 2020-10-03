@@ -4,4 +4,30 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="classes\interfaces\IUser.cs" />
+    <Compile Remove="classes\User.cs" />
+    <Compile Remove="interactors\Boss.cs" />
+    <Compile Remove="interactors\Character.cs" />
+    <Compile Remove="interactors\Creature.cs" />
+    <Compile Remove="interactors\Entity.cs" />
+    <Compile Remove="interactors\interfaces\IBossInteractor.cs" />
+    <Compile Remove="interactors\interfaces\ICharacterInteractor.cs" />
+    <Compile Remove="interactors\interfaces\ICreatureInteractor.cs" />
+    <Compile Remove="interactors\interfaces\IEntity.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="classes\interfaces\IUser.cs" />
+    <None Include="classes\User.cs" />
+    <None Include="interactors\Boss.cs" />
+    <None Include="interactors\Character.cs" />
+    <None Include="interactors\Creature.cs" />
+    <None Include="interactors\Entity.cs" />
+    <None Include="interactors\interfaces\IBossInteractor.cs" />
+    <None Include="interactors\interfaces\ICharacterInteractor.cs" />
+    <None Include="interactors\interfaces\ICreatureInteractor.cs" />
+    <None Include="interactors\interfaces\IEntity.cs" />
+  </ItemGroup>
+
 </Project>

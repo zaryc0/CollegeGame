@@ -2,7 +2,9 @@
 
 namespace constants
 {
-    public class Class1
+    public class ConstantVals
     {
+        public const int DIRECTION_RIGHT = -2;
+        public const int DIRECTION_LEFT = -3;
     }
 }
