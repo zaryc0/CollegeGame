@@ -32,10 +32,10 @@ namespace wrappers
         }
         public int D2()
         {
-             if (D100()%2==0)
-             {
-                return 2;
-             }
+            if (D100()%2==0)
+            {
+            return 2;
+            }
             else
             {
                 return 1;
