@@ -2,12 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>framework</AssemblyName>
+    <RootNamespace>framework</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\constants\constants.csproj" />
     <ProjectReference Include="..\data\data.csproj" />
-    <ProjectReference Include="..\wrappers\wrappers.csproj" />
+    <ProjectReference Include="..\wrappers\TUC.wrappers.csproj" />
   </ItemGroup>
 
 </Project>

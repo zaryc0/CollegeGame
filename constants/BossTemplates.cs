@@ -10,7 +10,7 @@ namespace constants
     interface BossTemplate
     {
         public int GetNumberOfEntities();
-        public IStatBlock GetStatBlock(IDice dice)
+        public IStatBlock GetStatBlock(IDice dice);
     }
     class BeanFiend
     {

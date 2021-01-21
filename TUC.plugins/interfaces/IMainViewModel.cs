@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ui.viewModel.interfaces
+namespace TUC.plugins.interfaces
 {
-    interface IShellViewModel
+    interface IMainViewModel
     {
+
     }
 }
