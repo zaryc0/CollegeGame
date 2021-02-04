@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -10,8 +10,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\data\data.csproj" />
-    <ProjectReference Include="..\wrappers\TUC.wrappers.csproj" />
+    <Folder Include="Consts\" />
+    <Folder Include="Enums\" />
   </ItemGroup>
 
 </Project>

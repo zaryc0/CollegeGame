@@ -1,0 +1,63 @@
+﻿<Page x:Class="TUC.plugins.Views.GameView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TUC.plugins.Views"
+      mc:Ignorable="d" 
+      xmlns:viewModels="clr-namespace:TUC.plugins.ViewModels"
+      d:DesignHeight="450" d:DesignWidth="800"
+      d:DataContext="{d:DesignInstance Type=viewModels:GameViewModel, IsDesignTimeCreatable=True}"
+      Title="GameView">
+
+    <StackPanel
+        x:Name="Frame"
+        Orientation="Vertical"
+        VerticalAlignment="Stretch"
+        Background="DarkGreen"
+        HorizontalAlignment="Stretch">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+            </Grid.RowDefinitions>
+            <TextBlock
+                x:Name="PlayerName"
+                Margin="3"
+                Background="DarkKhaki"
+                Text="Sample"
+                FontSize="20"
+                TextAlignment="Left"/>
+            <StackPanel
+                Grid.Row="0"
+                Grid.Column="2"
+                Orientation="Horizontal"
+                Background="Aquamarine">
+                <TextBlock
+                    Margin="10,0"
+                    Text="Lives"
+                    VerticalAlignment="Center"/>
+                <Image
+                    x:Name="Life1"
+                    Source="C:\Users\callu\OneDrive\Documents\college work\ObjectOrientedProgramming\repo\CollegeGame\TUC.ui\Resources\Apple1.png.png"
+                    Visibility="Visible"/>
+                <Image
+                    x:Name="Life2"
+                    Source="C:\Users\callu\OneDrive\Documents\college work\ObjectOrientedProgramming\repo\CollegeGame\TUC.ui\Resources\Apple1.png.png"
+                    Visibility="Visible"/>
+            </StackPanel>
+        </Grid>
+        <Canvas
+            x:Name="Canvas"
+            Width="auto"
+            Height="auto">
+            <Canvas.Background>
+                <ImageBrush ImageSource="C:\Users\callu\OneDrive\Documents\college work\ObjectOrientedProgramming\repo\CollegeGame\TUC.ui\Resources\background.png"/>
+            </Canvas.Background>
+        </Canvas>
+    </StackPanel>
+</Page>

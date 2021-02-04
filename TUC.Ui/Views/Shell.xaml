@@ -1,0 +1,25 @@
+﻿<Window x:Class="TUC.ui.Shell"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewModels="clr-namespace:TUC.ui"
+        xmlns:regions="http://prismlibrary.com/"
+        mc:Ignorable="d"
+        Title="TUC" Height="450" Width="800"
+        d:DataContext="{d:DesignInstance Type=viewModels:ShellViewModel}">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="{Binding BackGround}"
+                        Stretch="UniformToFill"
+                        /> 
+        </Grid.Background>
+        <Grid Margin="30,0,30,15">
+            <StackPanel
+                VerticalAlignment="Center"
+                Orientation="Vertical">
+                <ContentControl regions:RegionManager.RegionName="ShellMainRegion"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

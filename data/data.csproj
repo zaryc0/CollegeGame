@@ -1,7 +1,25 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="classes\interfaces\IUser.cs" />
+    <None Include="classes\User.cs" />
+    <None Include="interactors\BossInteractors.cs" />
+    <None Include="interactors\CharacterInteractors.cs" />
+    <None Include="interactors\CreatureInteractor.cs" />
+    <None Include="classes\Entity.cs" />
+    <None Include="interactors\interfaces\IBossInteractor.cs" />
+    <None Include="interactors\interfaces\ICharacterInteractor.cs" />
+    <None Include="interactors\interfaces\ICreatureInteractor.cs" />
+    <None Include="classes\interfaces\IEntity.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Prism.Unity" Version="8.0.0.1909" />
+    <PackageReference Include="Prism.Wpf" Version="8.0.0.1909" />
+  </ItemGroup>
 
 </Project>

@@ -1,16 +1,13 @@
-﻿using Data.classes.entityInteractors.interfaces;
+﻿using data.classes.interfaces;
+using Data.interactors.interfaces;
 
-namespace data.classes.entityInteractors.interfaces
+namespace data.interactors.interfaces
 {
-    public interface ICreatureInteractor : IEntity
+    public interface ICreatureInteractor
     {
-        public int GetAttackAttribute();
-        public int GetDefenceAttribute();
-        public int GetHealthAttribute();
-        public int GetRemainingHealth();
-        public void SetAttackAttribute(int attack);
-        public void SetDefence(int defence);
-        public void SetHealthAttribute(int value);
-        public void SetRemainingHealth(int value);
+        public IEntity GetEntity();
+        public IStatBlock GetStatblock();
+        public void SetEntity(IEntity entity);
+        public void SetStatBlock(IStatBlock statBlock);
     }
 }

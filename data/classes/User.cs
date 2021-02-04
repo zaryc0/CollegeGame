@@ -1,4 +1,4 @@
-﻿using Data.interfaces;
+﻿using data.classes.interfaces;
 
 namespace Data.classes
 {
@@ -7,25 +7,18 @@ namespace Data.classes
         private int _score;
         private int _id;
         private string _userName;
-        private IEntity _entity;
 
         public User()
         {
             _score = 0;
-            _id = 0;
+            _id = -0;
             _userName = "Default";
-            EntityGenerator.create();
         }
         public User(int id, string userName)
         {
             _score = 0;
             _id = id;
             _userName = userName;
-        }
-
-        public IEntity GetEntity()
-        {
-            throw new System.NotImplementedException();
         }
 
         public int GetScore()
@@ -41,11 +34,6 @@ namespace Data.classes
         public string GetUserName()
         {
             return _userName;
-        }
-
-        public void SetEntity(IEntity entity)
-        {
-            throw new System.NotImplementedException();
         }
 
         public void SetScore(int score)
