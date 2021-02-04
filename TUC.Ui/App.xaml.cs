@@ -1,17 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Prism.Ioc;
+using Prism.Unity;
 using System.Windows;
+using TUC.Interfaces.Scaffolding;
+using TUC.ui.Scaffolding;
 
-namespace TUC.Ui
+namespace TUC.ui
 {
     /// <summary>
     /// Interaction logic for App.xaml
     /// </summary>
-    public partial class App : Application
+    internal partial class App
     {
+        protected override void RegisterTypes(IContainerRegistry containerRegistry)
+        {
+            Scaffolding.Container.Register(containerRegistry.GetContainer());
+            containerRegistry.RegisterSingleton<IViewNavigator, ViewNavigator>();
+        }
+
+        protected override Window CreateShell()
+        {
+
+            return Container.Resolve<Shell>();
+        }
+
     }
 }

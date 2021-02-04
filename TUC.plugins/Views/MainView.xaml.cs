@@ -1,16 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Windows;
+﻿using Prism.Regions;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using TUC.plugins.interfaces;
 using TUC.plugins.ViewModels;
 
 namespace TUC.plugins.Views
@@ -18,10 +7,11 @@ namespace TUC.plugins.Views
     /// <summary>
     /// Interaction logic for MainView.xaml
     /// </summary>
-    public partial class MainView : Page
+    public partial class MainView : UserControl
     {
         public MainView(MainViewModel mainViewModel)
         {
+            DataContext = mainViewModel;
             InitializeComponent();
         }
     }

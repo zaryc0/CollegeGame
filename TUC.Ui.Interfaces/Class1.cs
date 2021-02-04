@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TUC.Interfaces
+namespace TUC.Ui.Interfaces
 {
     public class Class1
     {
