@@ -14,7 +14,6 @@
     <None Include="interactors\interfaces\IBossInteractor.cs" />
     <None Include="interactors\interfaces\ICharacterInteractor.cs" />
     <None Include="interactors\interfaces\ICreatureInteractor.cs" />
-    <None Include="classes\interfaces\IEntity.cs" />
   </ItemGroup>
 
   <ItemGroup>

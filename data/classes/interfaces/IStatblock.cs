@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace data.classes.interfaces
+﻿namespace data.classes.interfaces
 {
     public interface IStatBlock
     {
